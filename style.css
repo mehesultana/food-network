@@ -1,0 +1,11 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0px;
+}
+.blueviolet-color {
+  color: blueviolet;
+}
+
+h1 {
+  font: size 90px;
+}
