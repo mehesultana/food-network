@@ -1,40 +1,106 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
-  margin: 0px;
+  margin: 10px;
   margin-top: 20px;
 }
+
+
+
 .redorange-color {
   color: rgb(248, 165, 69);
 }
 
 h1 {
-  font: size 90px;
+  font-size: 80px;
+}
+h2 {
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+h3 {
+  font-size: 40px;
 }
 
-.link-button {
-  text-decoration: none;
-  background-image: linear-gradient(red, orange);
-  padding: 10px 40px;
-
-  color: white;
-  font-weight: 700;
-  border-radius: 5px;
+p {
+  font-size: 30px;
+}
+.redorange-color {
+  color: rgba(235, 111, 62, 0.959);
 }
 
 section {
   display: flex;
   margin: 50px;
 }
-.middle-banner {
- background-image: url(./shapes/7.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 
-.half-width {
-  width: 50%;
-  padding-left: 2%;
+.middle-banner {
+  background-image: url(./shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.half-width img {
-  width: 50%;
-  margin: auto 0px auto 0px;
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgba(235, 111, 62, 0.959), orange);
+  padding: 10px, 40px;
+  color: white;
+  font-weight: 400;
+  border-radius: 4px;
 }
+.hello-one {
+  width: 70%;
+  padding: 5%;
+}
+.hello-one img {
+  width: 80%;
+}
+.part {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+#pumpkin-soup {
+  grid-row: 2/3;
+  grid-column: 1 / 3;
+}
+#rosemary-beef {
+  grid-row: 2/3;
+  grid-column: 1 / 3;
+}
+#sausage-biscuits {
+  grid-row: 2/3;
+  grid-column: 1 / 3;
+}
+.footer-social {
+  align-items: center;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
