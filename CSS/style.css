@@ -141,8 +141,9 @@ li a {
   margin-left: 30px;
 }
 .latest-banner {
+  /* border: 2px solid firebrick; */
   background-color: #f4f4f2;
-  height: 600px;
+  height: 700px;
   margin-top: 20px;
   padding: 50px 0;
 }
@@ -179,9 +180,20 @@ li a {
 
 /* footer */
 
-footer {
-  /* border: 2px solid firebrick; */
-  color: #7d5a5a;
+.footer-social {
+  align-items: center;
+  margin: 0 auto 0 auto;
   text-align: center;
-  font-family: Roboto;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  background-color: #faebe0;
+  padding: 10px;
+}
+.page-footer {
+  background-color: transparent;
+  position: absolute;
+  padding: 20px 20px 20px 40px;
+  bottom: 0;
 }
