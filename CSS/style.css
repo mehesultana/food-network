@@ -181,7 +181,8 @@ li a {
 /* extra */
 .extra,
 .gallery {
-  margin: 50px 250px;
+  margin-top: 50px;
+  margin-left: 350px;
 }
 
 .extra,
