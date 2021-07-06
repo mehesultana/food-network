@@ -48,13 +48,13 @@ section {
   background-size: 100%;
 }
 
-.link-button {
+.anchor-button{
   text-decoration: none;
-  background-image: linear-gradient(rgba(235, 111, 62, 0.959), orange);
-  padding: 10px, 40px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
   color: white;
-  font-weight: 400;
-  border-radius: 4px;
+  font-weight: 700;
 }
 .hello-one {
   width: 70%;
@@ -125,5 +125,3 @@ section {
         nav {
           float: right;
         }
-        
-  
